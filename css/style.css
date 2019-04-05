@@ -1,0 +1,97 @@
+html,body { margin:0; height:100%;}
+.parallax1{
+    /* L’image du Parallax */
+    background-image: url("../img/parachut1.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax2{
+    /* L’image du Parallax */
+    background-image: url("../img/parachut2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.op{
+    opacity: 0.7;
+}
+.row80{
+    height: 80%;
+}
+.row20{
+    height: 20%;
+}
+.gris{
+    background-color: gray;
+    height: 100%;
+}
+.jaune{
+    background-color: yellow;
+    height: 100%;
+}
+.blanc{
+    background-color: white;
+    height: 100%;
+}
+.padding15{
+    padding-top: 15%;
+}
+.padding20{
+    padding-top: 20%;
+}
+.paddingdown15{
+    padding-bottom: 15%;
+}
+.paddingdown5{
+    padding-bottom: 5%;
+}
+.noir{
+    background-color: lightgrey;
+}
+.noir2{
+    background-color: black;
+}
+.rouge{
+    background-color: red;
+}
+.padding5{
+    padding-top: 5%;
+}
+.bg
+{
+    background-image: url("../img/civic1.jpg");
+    height: 100%;
+    background-position: center;
+
+}
+@media only screen and (max-width: 480px){
+    .bg{
+        background-image: url("../img/civicIphone.jpg");
+        height: 100%;
+        background-position: center;
+    }
+}
+.zero{
+    padding: 0%;
+}
+.bg2
+{
+    background-image: url("../img/formulaire.jpg");
+    height: 100%;
+    background-position: center;
+}
